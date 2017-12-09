@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/*--------------- FONTES ---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400');
+
+/*
+.margem lateral{margin-left: 3.17%;}
+.gutter{width: 1.69%;}
+.colum-1{width: 4.76%;}
+.colum-2{width: 11.11%;}
+.colum-3{width: 17.46%;}
+.colum-4{width: 23.8%;}
+.colum-5{width: 30.15%;}
+.colum-6{width: 36.5%;}
+.colum-7{width: 42.85%;}
+.colum-8{width: 49.2%;}
+.colum-9{width: 55.55%;}
+.colum-10{width: 61.9%;}
+.colum-11{width: 68.25%;}
+.colum-12{width: 74.6%;}
+.colum-13{width: 80.95%;}
+.colum-14{width: 87.3%;}
+.colum-15{width: 92.06%;}
+*/
+
+
+body{
+    margin: 0;
+}
+
+/*----------------- MENU -----------------*/
+
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 1px 8px #BFBFBF;
+}
+
+.home{
+    width: 11.11%;
+    height: 100%;
+    float: left;
+    margin-left: 3.17%;
+}
+
+.logo{     
+    width: 150px;
+    height: 70px;
+    top: 8px;
+    overflow: hidden;
+    background-image: url('../SVG/Logo%20Verde.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+form{
+    width: 49.2%;
+    display: inline-block;
+    margin-left: 1.69%;
+}
+
+.inputtxt{
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #90989c;
+    box-sizing : border-box;
+    box-shadow: 0 2px 5px 0 #BFBFBF;
+    border: 0;
+	outline: 0;
+    border-radius: 5px;
+}
+
+.search{
+    width: 25px;
+    height: 25px;
+    margin-left: -50px;
+    margin-top: 22px;
+    background-color: transparent;
+    background-image: url(../SVG/Search%20Icon.svg);
+    border : none;
+    text-indent: -1000em; 
+    cursor: pointer;
+}
+
+.navigator{
+    width: 30.15%;
+    float: right;
+    margin-right: 3.17%;
+    margin-top: 8px;
+}
+
+.navigator li{
+    display: inline-block;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.navigator a{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#56636c;
+    text-decoration: none;
+}
+.navigator a:hover{
+    color:#4cb89a;
+}
+
+
+/*------------------------------------------*/
+
+/*--------------- RESULTADOS --------------*/
+
+#mensage{
+    overflow: hidden;
+    width: 68.25%;
+    margin-left: 14.28%;
+    margin-bottom: 170px;
+}
+
+#mensage h1{
+    margin-top: 100px;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #f05246;
+}
+
+#mensage img{
+    width: 17.46%;
+    margin-left: 39.22%;
+    margin-top: 50px;
+}
+
+#mensage p{
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5E666A;
+}
+/*------------------------------------------*/
+
+/*----------------- FOOTER -----------------*/
+
+footer{
+    padding: 12px 0;
+    background-color: #3e4c58;
+}
+
+.container{
+    width: 80.95%;
+    margin-left: 9.62%;
+    overflow: hidden;
+}
+
+.copy{
+    float: left;
+}
+
+.copy h4{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #dedede;
+}
+
+.support{
+    float: right;
+    width: 36.5%;
+    margin-top: 1%;
+}
+.support img{
+    width: 30.43%;
+    margin-left: 17.39%;
+}
+
+#logosmd{
+    margin-bottom: 2%;
+}

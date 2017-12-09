@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscando Saúde</title>
+    <link type="text/css" href="CSS/style%20index.css" rel="stylesheet">
+    <link href="c3/c3.css" rel="stylesheet">
+    <script src="c3/d3.v3.min.js"></script>
+    <script src="c3/c3.min.js"></script>
+    <script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- MENU -->
+    <header>
+        <div class="home">
+            <a href="index.html" class="logo"></a>
+        </div>
+        
+        <nav class="navigator">
+            <ul>
+                <li><a href="page/Assuntos.html">TODOS OS ASSUNTOS</a></li>
+                <li><a href="#about">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- BUSCA -->
+    <section class="search">
+        <div class="divtxt">
+            <h1>Buscando saúde? Aqui mostramos dados estatísticos, artigos e diversas outras informações sobre a saúde da mulher brasileira.</h1>
+            <h4>Todas as informações que você verá neste site vieram de uma base de dados do governo.</h4>
+        </div>
+        
+        <form>
+            <div>
+                <input type="text" placeholder="Pesquise algo" class="inputtxt" id="pesquisa">
+            </div>
+            <div>
+                <input type="button" class="enviar" onClick="checkDatabase()" value="Buscar">
+            </div>
+        </form>
+    </section>
+    
+    <!-- ASSUNTOS -->
+    <section class="assuntos">
+        <div class="topics">
+            <article id="topic1">
+                <h1>Câncer de mama</h1>
+
+                <p>Segundo tipo mais frequente no mundo, o câncer de mama é o mais comum entre as mulheres, respondendo por 22% dos casos novos a cada ano. Se diagnosticado e tratado oportunamente, o diagnóstico é relativamente bom.</p>
+
+                <a href="page/conteudoCancMama.html">Saiba mais</a>
+            </article>
+            <article id="topic2">
+                <h1>Câncer de colo do útero</h1>
+
+                <p>O câncer do colo do útero é caracterizado pela replicação desordenada do epitélio de revestimento do órgão, comprometendo o tecido subjacente (estroma) e podendo invadir estruturas e órgãos contíguos ou à distância.</p>
+
+                <a href="page/conteudoCancUtero.html">Saiba mais</a>            
+            </article>
+            <article id="topic3">
+                <h1>Melhorar a saúde das gestantes</h1>
+
+                <p>No Brasil foi registrada uma redução na mortalidade materna, desde 1990, de praticamente 50%. A Razão de Mortalidade Materna (RMM) corrigida para 1990 era de 140 óbitos por 100 mil nascidos, enquanto em 2007 declinou para 75 óbitos.</p>
+
+                <a href="page/conteudoGest.html">Saiba mais</a>
+            </article>
+        </div>
+        
+        <div class="more">
+            <a>Mais assuntos</a>
+        </div>
+    </section>
+    
+    <!-- SOBRE -->
+    <section id="about">
+        <div class="project">
+            <h1>O projeto</h1>
+            <p>O Buscando saúde é um projeto da Universidade Federal do Ceará e visa fazer com que as pesquisas do governo - disponíveis em sites  como o Portal Brasileiro  de Dados Abertos  e DataSus - possam ser apresentadas de forma fácil e legível para o público. Queremos que a mulher brasileira possa ter acesso  a informação que as  auxiliem na prevenção e no entendimento da realidade nacional , com informações gerais  e estatísticas sobre prevenção, localização de hospitais e aparelhos,  dados sobre violência, causas de mortalidade , entre outras.</p>
+            <p>O projeto ainda está em construção e estamos inserindo cada vez mais dados para que você possa ter, em breve, uma visão mais completa sobre  uma série de assuntos relacionados à saúde.</p>
+        </div>
+        
+        <div class="team">
+            <div class="team-title">
+            <h1>A equipe</h1>
+            </div>
+            <div class="member">
+                <div id="member1">
+                    <img src="Imagens/Fotos/Gabriela.png">
+                    <h4>Gabriela Quintino</h4>
+                    <h5>Coordenadora de testes</h5>
+                </div>
+                
+                <div id="member2">
+                    <img src="Imagens/Fotos/Bosco.png">
+                    <h4>João Bosco</h4>
+                    <h5>Atendimento</h5>
+                </div>
+                
+                <div id="member3">
+                    <img src="Imagens/Fotos/Filipe.png">
+                    <h4>João Filipe</h4>
+                    <h5>Designer</h5>
+                </div>
+                
+                <div id="member4">
+                    <img src="Imagens/Fotos/Lissandro.png">
+                    <h4>Lissandro Cordeiro</h4>
+                    <h5>Programador</h5>
+                </div>
+                
+                <div id="member5">
+                    <img src="Imagens/Fotos/Rafael.png">
+                    <h4>Rafael Pinheiro</h4>
+                    <h5>Conteudista e revisor</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <h4>© 2017 Equipe Marshmallow</h4>
+            </div>
+            <div class="support">
+                <img src="SVG/Logo%20UFC.svg">
+                <img src="SVG/Logo%20SMD.svg" id="logosmd">
+            </div>     
+        </div>
+    </footer>
+    
+</body>
+</html>

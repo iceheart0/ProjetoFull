@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscando Saúde</title>
+    <link type="text/css" href="../CSS/style%20assuntos.css" rel="stylesheet">
+    <script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+
+</head>
+<body>
+    <!-- MENU -->
+    <header>
+        <div class="home">
+            <a href="../index.html" class="logo"></a>
+        </div>
+        
+        <form>
+            <input type="text" placeholder="Pesquise algo" class="inputtxt" id="pesquisa">
+            <input type="button" class="enviar" onClick="checkDatabase()">    
+        </form>
+        
+        <nav class="navigator">
+            <ul>
+                <li><a href="Assuntos.html">TODOS OS ASSUNTOS</a></li>
+                <li><a href="../index.html#about">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- RESULTADOS -->
+    <div id="topics">
+        <h1>Estes são todos os assuntos que abordamos</h1>
+        
+        <div class="colum">
+            <div id="colum1">
+                <ul>
+                    <li><a href="conteudoMort10a19.html">Taxa de mortalidade específica de mulheres de 10 a 19 anos (Adolescente)</a></li>
+                    <li><a href="conteudoMort20a59.html">Taxa de mortalidade específica de mulheres de 20 a 59 anos</a></li>
+                    <li><a href="conteudoCancUtero.html">Prevenção e Tratamento de Câncer de Colo do Útero</a></li>
+                </ul>
+            </div>
+            
+            <div id="colum2">
+                <ul>
+                    <li><a href="conteudoCancMama.html">Prevenção e Tratamento de Câncer de Mama</a></li>
+                    <li><a href="conteudoGest.html">Melhorar a saúde das gestantes</a></li>
+                    <li><a></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <h4>© 2017 Equipe Marshmallow</h4>
+            </div>
+            <div class="support">
+                <img src="../SVG/Logo%20UFC.svg">
+                <img src="../SVG/Logo%20SMD.svg" id="logosmd">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

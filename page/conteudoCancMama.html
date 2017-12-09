@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buscando Saúde</title>
+    <link type="text/css" href="../CSS/style%20conteudo.css" rel="stylesheet">
+    <link href="c3/c3.css" rel="stylesheet">
+    <script src="c3/d3.v3.min.js"></script>
+    <script src="c3/c3.min.js"></script>
+    <script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+
+</head>
+<body>
+    <!-- MENU -->
+    <header>
+        <div class="home">
+            <a href="../index.html" class="logo"></a>
+        </div>
+        
+        <form>
+            <input type="text" placeholder="Pesquise algo" class="inputtxt" id="pesquisa">
+            <input type="button" class="enviar" onClick="checkDatabase()">    
+        </form>
+        
+        <nav class="navigator">
+            <ul>
+                <li><a href="Assuntos.html">TODOS OS ASSUNTOS</a></li>
+                <li><a href="../index.html#about">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- CONTEUDO -->
+    <div id="content">
+        <div class="article">
+            <h1>Câncer de mama</h1>
+
+            <p>Segundo tipo mais frequente no mundo, o câncer de mama é o mais comum entre as mulheres, respondendo por 22% dos casos novos a cada ano. Se diagnosticado e tratado oportunamente, o prognóstico é relativamente bom.
+
+            No Brasil, as taxas de mortalidade por câncer de mama continuam elevadas, muito provavelmente porque a doença ainda é diagnosticada em estádios avançados. Na população mundial, a sobrevida média após cinco anos é de 61%.
+
+            Relativamente raro antes dos 35 anos, acima desta faixa etária sua incidência cresce rápida e progressivamente. Estatísticas indicam aumento de sua incidência tanto nos países desenvolvidos quanto nos em desenvolvimento. Segundo a Organização Mundial da Saúde (OMS), nas décadas de 60 e 70 registrou-se um aumento de 10 vezes nas taxas de incidência ajustadas por idade nos Registros de Câncer de Base Populacional de diversos continentes.</p>
+        </div>
+        
+        <div id="chart">
+          <script src="JS/cancMama.js"></script>
+        </div>
+      
+        <div class="comp">
+            <h1>Sempre procure um especialista</h1>
+        </div>
+        
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <h4>© 2017 Equipe Marshmallow</h4>
+            </div>
+            <div class="support">
+                <img src="../SVG/Logo%20UFC.svg">
+                <img src="../SVG/Logo%20SMD.svg" id="logosmd">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

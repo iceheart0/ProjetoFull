@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buscando Saúde</title>
+    <link type="text/css" href="../CSS/style%20conteudo.css" rel="stylesheet">
+    <link href="c3/c3.css" rel="stylesheet">
+    <script src="c3/d3.v3.min.js"></script>
+    <script src="c3/c3.min.js"></script>
+    <script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+
+</head>
+<body>
+    
+    <!-- MENU -->
+    <header>
+        <div class="home">
+            <a href="../index.html" class="logo"></a>
+        </div>
+        
+        <form>
+            <input type="text" placeholder="Pesquise algo" class="inputtxt" id="pesquisa">
+            <input type="button" class="enviar" onClick="checkDatabase()">    
+        </form>
+        
+        <nav class="navigator">
+            <ul>
+                <li><a href="Assuntos.html">TODOS OS ASSUNTOS</a></li>
+                <li><a href="../index.html#about">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- CONTEUDO -->
+    <div id="content">
+        <div class="article">
+            <h1> Câncer de colo do útero</h1>
+
+            <p>O câncer do colo do útero é caracterizado pela replicação desordenada do epitélio de revestimento do órgão, comprometendo o tecido subjacente (estroma) e podendo invadir estruturas e órgãos contíguos ou à distância. Há duas principais categorias de carcinomas invasores do colo do útero, dependendo da origem do epitélio comprometido: o carcinoma epidermoide, tipo mais incidente e que acomete o epitélio escamoso (representa cerca de 80% dos casos), e o adenocarcinoma, tipo mais raro e que acomete o epitélio glandular (10% dos casos.
+
+            É uma doença de desenvolvimento lento, que pode cursar sem sintomas em fase inicial e evoluir para quadros de sangramento vaginal intermitente ou após a relação sexual, secreção vaginal anormal e dor abdominal associada com queixas urinárias ou intestinais nos casos mais avançados.</p>
+        </div>
+        
+        <div id="chart">
+          <script src="JS/cancUtero.js"></script>
+        </div>
+
+        <div class="comp">
+            <h1>Sempre procure um especialista</h1>
+        </div>
+        
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <h4>© 2017 Equipe Marshmallow</h4>
+            </div>
+            <div class="support">
+                <img src="../SVG/Logo%20UFC.svg">
+                <img src="../SVG/Logo%20SMD.svg" id="logosmd">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

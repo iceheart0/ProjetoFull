@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Buscando Saúde</title>
+    <link type="text/css" href="CSS/style%20resultados.css" rel="stylesheet">
+</head>
+
+<body>
+<script type="text/javascript" src="JS/buscaj.js" charset="utf-8" async defer></script>
+    <!-- MENU -->
+    <header>
+        <div class="home">
+            <a href="index.html" class="logo"></a>
+        </div>
+        
+        <form>
+            <input type="text" placeholder="Pesquise algo" class="inputtxt" id="pesquisa">
+            <input type="submit" class="search">    
+        </form>
+        
+        <nav class="navigator">
+            <ul>
+                <li><a href="Assuntos.html">TODOS OS ASSUNTOS</a></li>
+                <li><a href="index.html#about">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- RESULTADOS -->
+    <div id="results">
+    <head><title>Resultado da Busca</title><style>body A:link {COLOR: #003366; TEXT-DECORATION: none} A:visited {COLOR: #003366; TEXT-DECORATION: none} A:active {COLOR: #003366; TEXT-DECORATION: none} A:hover {COLOR: #003366; TEXT-DECORATION: underline}</style></head>
+    <body bgcolor=white text=black link=blue vlink=darkblue alink=blue><CENTER><font face=Verdana, Arial, Helvetica, sans-serif size=2>Resultado da Busca</CENTER>
+    <font size=1><center>Busca por :  "+Item+"</center><hr width=80% size=1 color=#000000></font>
+    <li><font face=Verdana, Arial, Helvetica, sans-serif><font size=1>"+Descrip[i]+"<BR><A HREF="+Address[i]+" target='opener'>Click Aqui para Acessar</A></font></font>
+        
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <h4>© 2017 Equipe Marshmallow</h4>
+            </div>
+           <!-- <div class="support">
+                <img src="SVG/Logo%20UFC.svg">
+                <img src="SVG/Logo%20SMD.svg" id="logosmd">
+            </div>-->
+        </div>
+    </footer>
+    
+</body>
+</html>
